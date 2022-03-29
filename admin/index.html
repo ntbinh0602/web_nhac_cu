@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./asset/css/main.css" />
+    <link
+      href="https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <title>Admin Page</title>
+  </head>
+  <body>
+    <div class="header--nav">
+      <div class="header--nav--left">
+        <a class="logo-page" href="index.html">
+          <i class="bx bx-speaker"></i>
+          <h4>BMusic</h4>
+        </a>
+        <div class="btn-menu">
+          <i class="bx bx-menu"></i>
+        </div>
+        <div class="search-box">
+          <input type="text" placeholder="Search..." />
+          <i class="bx bx-search"></i>
+        </div>
+      </div>
+      <ul class="header--nav--right">
+        <li class="nav-item btn-bell-nof">
+          <i class="bx bx-bell"></i>
+          <span class="num_noti"> 4 </span>
+          <div class="drop_nav-notif hide">
+            <div class="drop_notif_item">
+              <h5>Thông báo</h5>
+              <a href="">Xóa tất cả</a>
+            </div>
+            <a href="" class="drop_notif_item">
+              <div class="mess-icon">
+                <i class="bx bx-user-pin"></i>
+              </div>
+              <div class="mess-box">
+                <p>ntbinh đã bình luận về sản ph...</p>
+                <span>1 phút trước</span>
+              </div>
+            </a>
+            <a href="" class="drop_notif_item">
+              <div class="mess-icon">
+                <i class="bx bxs-user-plus"></i>
+              </div>
+              <div class="mess-box">
+                <p>Một người dùng mới vừa đă...</p>
+                <span>1 giờ trước</span>
+              </div>
+            </a>
+            <a href="" class="drop_notif_item">
+              <div class="mess-icon">
+                <i class="bx bxs-heart"></i>
+              </div>
+              <div class="mess-box">
+                <p>dinhtruong đã thích sản phẩ...</p>
+                <span>1 ngày trước</span>
+              </div>
+            </a>
+            <a href="" class="drop_notif_item"> Xem tất cả thông báo </a>
+          </div>
+        </li>
+        <li class="nav-item btn---user">
+          <a class="user--m" href="#">
+            <img src="./asset/img/ad_user.jpg" alt="" />
+            <p>trongbinh</p>
+            <i class="bx bx-chevron-down"></i>
+          </a>
+          <div class="drop_nav-user hide">
+            <div class="drop_user_item">
+              <h6>Wellcome!</h6>
+            </div>
+            <a href="" class="drop_user_item">
+              <i class="bx bx-user"></i>
+              <span>Hồ sơ</span>
+            </a>
+            <a href="" class="drop_user_item">
+              <i class="bx bx-cog"></i>
+              <span>Cài đặt</span>
+            </a>
+            <a href="" class="drop_user_item">
+              <i class="bx bx-shield"></i>
+              <span>Khóa màn hình</span>
+            </a>
+            <a href="" class="drop_user_item">
+              <i class="bx bx-log-in"></i>
+              <span>Đăng xuất</span>
+            </a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <i class="bx bx-cog"></i>
+        </li>
+      </ul>
+    </div>
+    <div class="main--content">
+      <div class="main__menu">
+        <ul class="nav__list">
+          <li class="nav_list_item">
+              NAVIGATION
+          </li>
+          <li class="nav_list_item">
+            <a href="">
+              <i class='bx bx-chart'></i>
+              <span>Tổng quan</span>
+            </a>
+          </li>
+          <li class="nav_list_item btn_ql">
+            <a href="#">            
+              <i class='bx bx-table'></i>
+              <span>Quản lý</span>
+              <i class='bx bx-chevron-right'></i>
+            </a>
+            <ul class="sub_list hide">
+              <li class="sub_list_item">
+                <a href="">Sản phẩm</a>
+              </li>
+              <li class="sub_list_item">
+                <a href="">Danh mục</a>
+              </li>
+              <li class="sub_list_item">
+                <a href="">Khuyến mãi</a>
+              </li>
+              <li class="sub_list_item">
+                <a href="">Thành viên</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav_list_item">
+            <a href="">
+              <i class='bx bxs-report' ></i>
+              <span>Thống kê</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="main__body"></div>
+    </div>
+  </body>
+  <script src="./asset/js/main.js"></script>
+</html>
